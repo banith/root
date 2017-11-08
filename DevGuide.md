@@ -13,3 +13,23 @@ npm info underscore
 npm install --registry=https://registry.cnpmjs.org
 ## 开发参考
 http://web.jobbole.com/89688/  12步30分钟完成CRUD
+## 常用命令
+*安装 dva-cli ,查看安装后的版本
+$ npm i dva-cli -g
+$ dva -v
+*创建应用
+$ dva new user-dashboard
+$ cd user-dashboard
+feedback
+Success! Created user-dashboard at D:\2017\front\training\root\user-dashboard.
+
+Inside that directory, you can run several commands:
+  * npm start: Starts the development server.
+  * npm run build: Bundles the app into dist for production.
+  * npm test: Run test.
+
+We suggest that you begin by typing:
+  cd D:\2017\front\training\root\user-dashboard
+  npm start
+
+Happy hacking!
